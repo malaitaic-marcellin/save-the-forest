@@ -100,6 +100,7 @@ controller.A.onEvent(ControllerButtonEvent.Repeated, function () {
     sprites.spray(myPlane, forest_imgs.water)
 })
 let myPlane: Sprite = null
+hud.fire_hud_label("Fires:")
 hud.fire_hud(true)
 game.set_strength_of_wind(3)
 game.set_health_of_trees(7)
